@@ -1,6 +1,5 @@
 # Element UI 地址参数辅助输入框
-
-![demo.gif](./img/demo.gif)
+类似postman地址输入框，自动筛选参数，可视化输入
 
 ## Install
 
@@ -29,7 +28,7 @@ Vue.use(elementParamsInput);
 
 ``` html
  <!-- template -->
-<i-params v-model="url" placeholder="占位" absolute prefixicon="el-icon-edit"></i-params>
+<element-params-input v-model="test" placeholder="placeholder"></element-params-input>
 ```
 
 ## Props
