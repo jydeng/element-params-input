@@ -1,14 +1,11 @@
 import ElementParamsInput from "./packages/element-params-input";
 
-const install = function(Vue, opts = {}) {
+ElementParamsInput.install = function(Vue, opts = {}) {
   Vue.component(ElementParamsInput.name, ElementParamsInput);
 };
 
 if (typeof window !== "undefined" && window.Vue) {
-  install(Window.Vue);
+  window.Vue.use(ElementParamsInput);
 }
 
-export default {
-  install,
-  ElementParamsInput
-};
+export default ElementParamsInput;

@@ -6,7 +6,11 @@
 ``` shell
 npm install element-params-input -S
 ```
+OR
 
+``` shell
+yarn add element-params-input 
+```
 ## Demo
 
 [Online](http://123.207.117.50/#/params)
@@ -14,23 +18,24 @@ npm install element-params-input -S
 ## Quick Start
 
 ``` javascript
-// main.js
-import Vue from "vue"; // vue
-import element from "element-ui"; // elementUI
-
 import elementParamsInput from "element-params-input";
-
-// elementUI
-Vue.use(element, { size: "small" });
 
 Vue.use(elementParamsInput);
 ```
 
 ``` html
- <!-- template -->
 <element-params-input v-model="test" placeholder="placeholder"></element-params-input>
 ```
 
+OR
+
+``` html
+ <script src="./element-params-input.js"></script>
+```
+
+``` html
+<element-params-input v-model="test" placeholder="placeholder"></element-params-input>
+```
 ## Props
 
 1. `v-model`: 双向绑定，与el-input一致
