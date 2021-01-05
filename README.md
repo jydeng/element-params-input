@@ -12,8 +12,8 @@ OR
 yarn add element-params-input 
 ```
 ## Demo
-
-[Online](http://123.207.117.50/#/params)
+![Demo](./img/demo.gif)
+* [Online](http://123.207.117.50/#/home/other)
 
 ## Quick Start
 
